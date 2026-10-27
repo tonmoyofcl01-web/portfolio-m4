@@ -715,6 +715,9 @@
   .p-7 {
     padding: calc(var(--spacing) * 7);
   }
+  .px-0 {
+    padding-inline: 0px;
+  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -753,6 +756,12 @@
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
+  }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
@@ -1164,6 +1173,9 @@
     }
     .sm\:pl-12 {
       padding-left: calc(var(--spacing) * 12);
+    }
+    .sm\:text-left {
+      text-align: left;
     }
     .sm\:text-2xl {
       font-size: var(--text-2xl);
